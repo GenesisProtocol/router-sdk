@@ -1114,13 +1114,21 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
-"@genesisprotocol/sdk@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@genesisprotocol/sdk/-/sdk-3.0.1.tgz#6d675afb9bf5e7b96d57836eaf76d143fcf4fbf1"
-  integrity sha512-cBT8Ua8smdI7iZo4CXPdkrpNplbS4pt8fb4rZnZhO70fUhslPOazpRW7+Fnx/r073Vu0oshL/lAM5U5u6VPHbw==
+"@genesisprotocol/helpers@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@genesisprotocol/helpers/-/helpers-0.1.15.tgz#5c67b149273445c94c3bf05f0a66f2bfce24e128"
+  integrity sha512-PakrYsqZHAwNQD3vxyG7PQjJqKDjNmApJRdxDxIgcpPwUxUKx+d9SAC2Bmst2cYSz4qe85hYhkuefrhKWNJlpQ==
+  dependencies:
+    case "^1.6.3"
+
+"@genesisprotocol/sdk@^3.0.13":
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/@genesisprotocol/sdk/-/sdk-3.0.13.tgz#6a447941cd08eda6e622dfc75f94cc209b7f8c18"
+  integrity sha512-aUYIjhq3lyO+8wTcmfyHP11Th0wwCgYGeXe9TtpXCJIFRc8mqxJQqyAdsAZIFWCJxABEvv1SVqoOYhkmFrXU7A==
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
+    "@genesisprotocol/helpers" "^0.1.15"
     "@uniswap/sdk-core" "^3.0.0-alpha.3"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
@@ -2211,6 +2219,11 @@ capture-exit@^2.0.0:
   integrity sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==
   dependencies:
     rsvp "^4.8.4"
+
+case@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
+  integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
 caseless@~0.12.0:
   version "0.12.0"

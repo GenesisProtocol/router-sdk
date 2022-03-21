@@ -1,6 +1,6 @@
 {
   "name": "@genesisprotocol/router-sdk",
-  "version": "1.0.8",
+  "version": "1.0.12",
   "description": "An sdk for routing swaps using Genesis Protocol",
   "publishConfig": {
     "access": "public"
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@genesisprotocol/sdk": "^3.0.3",
+    "@genesisprotocol/sdk": "^3.0.13",
     "@uniswap/sdk-core": "^3.0.1",
     "@uniswap/swap-router-contracts": "1.1.0",
     "@uniswap/v3-sdk": "^3.7.1"
