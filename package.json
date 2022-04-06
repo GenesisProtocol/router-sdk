@@ -1,6 +1,6 @@
 {
   "name": "@genesisprotocol/router-sdk",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "An sdk for routing swaps using Genesis Protocol",
   "publishConfig": {
     "access": "public"
